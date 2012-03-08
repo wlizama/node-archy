@@ -55,8 +55,8 @@ methods
 
 var archy = require('archy')
 
-archy(obj, prefix='')
----------------------
+archy(obj, prefix='', opts={})
+------------------------------
 
 Return a string representation of `obj` with unicode pipe characters like how
 `npm ls` looks.
@@ -73,6 +73,9 @@ recursively update.
 
 If `'label'` has newlines they will be indented at the present indentation level
 with the current prefix.
+
+To disable unicode results in favor of all-ansi output set `opts.unicode` to
+`false`.
 
 install
 =======

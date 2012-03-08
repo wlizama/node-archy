@@ -1,7 +1,7 @@
 var test = require('tap').test;
 var archy = require('../');
 
-test(function (t) {
+test('beep', function (t) {
     var s = archy({
       label : 'beep',
       nodes : [

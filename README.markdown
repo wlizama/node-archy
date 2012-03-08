@@ -60,6 +60,13 @@ archy(obj, prefix='')
 Return a string representation of `obj` with unicode pipe characters like how
 `npm ls` looks.
 
+`obj` should be a tree of nested objects with `'label'` and `'nodes'` fields.
+`'label'` is a string of text to display at a node level and `'nodes'` is an
+array of the descendents of the current node.
+
+If a node is a string, that string will be used as the `'label'` and an empty
+array of `'nodes'` will be used.
+
 install
 =======
 

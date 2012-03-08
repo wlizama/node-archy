@@ -3,6 +3,8 @@ archy
 
 Render nested hierarchies `npm ls` style with unicode pipes.
 
+[![build status](https://secure.travis-ci.org/substack/node-archy.png)](http://travis-ci.org/substack/node-archy)
+
 example
 =======
 

@@ -16,7 +16,7 @@ var s = archy({
             'human'
           ]
         },
-        'party!'
+        'party\ntime!'
       ]
     }
   ]

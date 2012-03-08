@@ -27,7 +27,7 @@ var s = archy({
             'human'
           ]
         },
-        'party!'
+        'party\ntime!'
       ]
     }
   ]
@@ -46,7 +46,8 @@ beep
   │ │ ├── hello
   │ │ └── puny
   │ └── human
-  └── party!
+  └── party
+      time!
 ```
 
 methods
@@ -66,6 +67,12 @@ array of the descendents of the current node.
 
 If a node is a string, that string will be used as the `'label'` and an empty
 array of `'nodes'` will be used.
+
+`prefix` gets prepended to all the lines and is used by the algorithm to
+recursively update.
+
+If `'label'` has newlines they will be indented at the present indentation level
+with the current prefix.
 
 install
 =======

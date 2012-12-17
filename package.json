@@ -3,13 +3,9 @@
     "version" : "0.0.2",
     "description" : "render nested hierarchies `npm ls` style with unicode pipes",
     "main" : "index.js",
-    "directories" : {
-        "lib" : ".",
-        "example" : "example",
-        "test" : "test"
-    },
     "devDependencies" : {
-        "tap" : "~0.2.3"
+        "tap" : "~0.3.3",
+        "tape" : "~0.1.1"
     },
     "scripts" : {
         "test" : "tap test"

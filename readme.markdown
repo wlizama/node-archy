@@ -1,5 +1,4 @@
-archy
-=====
+# archy
 
 Render nested hierarchies `npm ls` style with unicode pipes.
 
@@ -7,8 +6,7 @@ Render nested hierarchies `npm ls` style with unicode pipes.
 
 [![build status](https://secure.travis-ci.org/substack/node-archy.png)](http://travis-ci.org/substack/node-archy)
 
-example
-=======
+# example
 
 ``` js
 var archy = require('archy');
@@ -52,13 +50,11 @@ beep
       time!
 ```
 
-methods
-=======
+# methods
 
 var archy = require('archy')
 
-archy(obj, prefix='', opts={})
-------------------------------
+## archy(obj, prefix='', opts={})
 
 Return a string representation of `obj` with unicode pipe characters like how
 `npm ls` looks.
@@ -79,8 +75,7 @@ with the current prefix.
 To disable unicode results in favor of all-ansi output set `opts.unicode` to
 `false`.
 
-install
-=======
+# install
 
 With [npm](http://npmjs.org) do:
 
@@ -88,7 +83,6 @@ With [npm](http://npmjs.org) do:
 npm install archy
 ```
 
-license
-=======
+# license
 
-MIT/X11
+MIT
